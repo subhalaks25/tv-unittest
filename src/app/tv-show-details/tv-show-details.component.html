@@ -1,0 +1,17 @@
+<section *ngIf="show" class="text-left">
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{show.title}}</mat-card-title>
+    <mat-card-subtitle>
+      <div *ngIf="show.genre.length"><span class="bold">Genre:</span> {{show.genre.join(', ')}}</div>
+      <div *ngIf="show.rating"><span class="bold">Rating:</span> {{show.rating}}</div>
+    </mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]='show.image' [alt]='show.title' />
+  <mat-card-content>
+      <p [innerHTML]="show.description"></p>
+      <p *ngIf="show.cast.length"><span class="bold">Cast:</span> {{show.cast.join(', ')}}</p>
+  </mat-card-content>
+</mat-card>  
+</section>
+

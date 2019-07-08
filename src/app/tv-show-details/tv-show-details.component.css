@@ -1,0 +1,7 @@
+.bold {
+  font-weight: bold;
+}
+.mat-card {
+  max-width: 400px;
+  margin: auto;
+}

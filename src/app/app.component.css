@@ -1,0 +1,21 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+h2 {
+  margin: auto;
+}
+
+.mat-toolbar div {
+  display: inline-block;
+  font-family: 'KoHo', sans-serif;
+  text-transform: uppercase;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+.material-icons {
+  vertical-align: top;
+  font-size: 28px;
+}
